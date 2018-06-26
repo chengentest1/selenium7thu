@@ -12,7 +12,7 @@ class RegisterTest(unittest.TestCase):
         cls.driver.maximize_window()
     @classmethod
     def tearDownClass(cls):
-        time.sleep(30)
+        time.sleep(1)
         cls.driver.quit()
     #编写一个测试用例
     def test_regiser(self):
